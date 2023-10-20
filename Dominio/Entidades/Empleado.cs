@@ -8,4 +8,6 @@ public class Empleado : BaseEntity
     public string FechaIngreso { get; set; }
     public int IdMunicipio { get; set; }
     public Municipio Municipio { get; set; }
+    public ICollection<Orden> Ordenes { get; set; }
+    public ICollection<DetalleVenta> DetallesVentas { get; set; }
 }

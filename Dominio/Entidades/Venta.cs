@@ -1,11 +1,11 @@
 namespace Dominio.Entidades;
 public class Venta : BaseEntity
 {
-    public string Fecha { get; set; }
-    public int IdEmpleado { get; set; }
+    public DateOnly Fecha { get; set; }
+    public int Id_Empleado { get; set; }
     public Empleado Empleado { get; set; }
-    public int IdCliente { get; set; }
+    public int Id_Cliente { get; set; }
     public Cliente Cliente { get; set; }
-    public int IdFormaPago { get; set; }
+    public int Id_FormaPago { get; set; }
     public FormaPago FormaPago { get; set; }
 }

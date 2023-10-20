@@ -1,11 +1,11 @@
 namespace Dominio.Entidades;
 public class Orden : BaseEntity
 {
-    public string Fecha { get; set; }
-    public int IdEmpleado { get; set; }
+    public DateOnly Fecha { get; set; }
+    public int Id_Empleado { get; set; }
     public Empleado Empleado { get; set; }
-    public int IdCliente { get; set; }
+    public int Id_Cliente { get; set; }
     public Cliente Cliente { get; set; }
-    public int IdEstado { get; set; }
+    public int Id_Estado { get; set; }
     public Estado Estado { get; set; }
 }
