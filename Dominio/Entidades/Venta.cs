@@ -9,3 +9,4 @@ public class Venta : BaseEntity
     public int Id_FormaPago { get; set; }
     public FormaPago FormaPago { get; set; }
 }
+
