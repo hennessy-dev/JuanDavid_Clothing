@@ -12,7 +12,6 @@ public class Prenda : BaseEntity
     public int Id_Genero { get; set; }
     public Genero Genero { get; set; }
     public ICollection<DetalleOrden> DetalleOrdenes { get; set; }
-    public ICollection<Insumo> Insumos { get; set; } = new HashSet<Insumo>();
     public ICollection<InsumoPrenda> InsumosPrendas { get;}
     public ICollection<Inventario> Inventarios { get; set; }
 }

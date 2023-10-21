@@ -43,5 +43,12 @@ public class DbAppContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        modelBuilder.Entity<Cliente>().HasAlternateKey(p => p.Id_Cliente);
+        modelBuilder.Entity<Insumo>().HasAlternateKey(p => p.Nombre);
+        modelBuilder.Entity<Prenda>().HasAlternateKey(p => p.Id_Prenda);
+        modelBuilder.Entity<Empresa>().HasAlternateKey(p => p.Nit);
+        modelBuilder.Entity<Proveedor>().HasAlternateKey(p => p.NitProveedor);
+        modelBuilder.Entity<Inventario>().HasAlternateKey(p => p.CodInv);
+        modelBuilder.Entity<Empleado>().HasAlternateKey(p => p.Id_Empleado);
     }
 }

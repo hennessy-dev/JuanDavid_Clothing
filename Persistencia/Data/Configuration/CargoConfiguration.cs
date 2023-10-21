@@ -13,7 +13,16 @@ namespace Persistencia.Data.Configuration
             builder.HasKey(e => e.Id);
             builder.Property(e => e.Id);
 
-            
+            builder.Property(e => e.Descripcion)
+                        .HasColumnName("descripcion")
+                        .HasColumnType("varchar")
+                        .HasMaxLength(50)
+                        .IsRequired();
+
+            builder.Property(e => e.SueldoBase)
+                        .HasColumnName("sueldoBase")
+                        .HasColumnType("double")
+                        .IsRequired();
         }
     }
 }

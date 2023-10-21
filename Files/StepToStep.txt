@@ -1,0 +1,375 @@
+commit 26d9d3d9bc80ef3ae50c437860466a79ec18059a (HEAD -> main, origin/main, origin/HEAD)
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Thu Oct 19 23:51:24 2023 -0500
+
+    :sparkles: feat(Pets): add consulta 6B
+
+    - Interface
+    - Repository
+    - Controller
+
+commit a91d39907ce99544828728f22c715b6bb7790a49
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Thu Oct 19 23:43:28 2023 -0500
+
+    :sparkles: feat(Owners): add consulta 5B
+
+    - Interface
+    - Repository
+    - Controller
+
+commit 942dbbd156b12daf1d909bea0cbfb1a1ed023ae0
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Thu Oct 19 23:32:27 2023 -0500
+
+    :sparkles: feat(Suppliers): add consulta 4B
+
+    - Interface
+    - Repository
+    - Controller
+
+commit 4d99c9c27ff97ad2c09fac1743528c582c983d29
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Thu Oct 19 23:16:35 2023 -0500
+
+    :sparkles: feat(Pets): add consulta 3B
+
+    - Interface
+    - Repository
+    - Controller
+
+commit 4ab1b18d8f90508cac58ef72035859bb5fc041ae
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Thu Oct 19 23:07:32 2023 -0500
+
+    :sparkles: feat(MedicationMovements): add consulta 2B
+
+    - Interface
+    - Repository
+    - Controller
+
+commit 2499d61f9b6467a4fa57fdde759db8a581686305
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Thu Oct 19 22:44:32 2023 -0500
+
+    :sparkles: feat(Pets): add consulta 1B
+
+    - Interface
+    - Repository
+    - Controller
+
+commit 38eeb5cbf02c39551b4b6ee1791565885a848f29
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Thu Oct 19 22:18:38 2023 -0500
+
+    :sparkles: feat(Pets): add consulta 6A
+
+    - Interface
+    - Repository
+    - Controller
+
+commit b92f1c0af505d438aa6d20018765bc89b60b887e
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Thu Oct 19 22:02:45 2023 -0500
+
+    :sparkles: feat(Medications): add consulta 5A
+
+    - Interface
+    - Repository
+    - Controller
+
+commit 04fb5ab635620cc86d891c4cb550b5112f6db94c
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Thu Oct 19 21:46:13 2023 -0500
+
+    :sparkles: feat(Owners): add consulta 4A
+
+    - Interface
+    - Repository
+    - Controller
+
+commit eb3713e8c14284a14f34e780e8abd29f8b62340f
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Thu Oct 19 21:43:43 2023 -0500
+
+    :sparkles: feat(Pets): add consulta 3A
+
+    - Interface
+    - Repository
+    - Controller
+
+commit 4d4fb407c01dd7c5510958f00b31bbe18de4205b
+Author: Jose Daniel Rodriguez <142543881+jarvisbot01@users.noreply.github.com>
+Date:   Thu Oct 19 21:59:23 2023 +0000
+
+    :sparkles: feat(Laboratories): add consulta 2A
+
+    - Interface
+    - Repository
+    - Controller
+
+commit 681ea94c85018987041f246281efa29a64c7229f
+Author: Jose Daniel Rodriguez <142543881+jarvisbot01@users.noreply.github.com>
+Date:   Thu Oct 19 21:23:56 2023 +0000
+
+    :sparkles: feat(Vets): add consulta 1A
+
+    - Interface
+    - Repository
+    - Controller
+
+commit b6758626a0f4d81cf86d295b227aa065c40133c5
+Author: Jose Daniel Rodriguez <142543881+jarvisbot01@users.noreply.github.com>
+Date:   Thu Oct 19 00:12:15 2023 +0000
+
+    :sparkles: feat: add API versioning
+
+commit 161b4ff8d612377bc579c429fde04af14b12efbf
+Author: Jose Daniel Rodriguez <142543881+jarvisbot01@users.noreply.github.com>
+Date:   Wed Oct 18 23:28:08 2023 +0000
+
+    :wrench: chore(Configuration): add Serilog logging configuration
+
+    - Integrated Serilog for logging in the application.
+    - Configured Serilog to write logs to a file with rolling intervals.
+    - Updated Serilog configuration in the appsettings.json file.
+
+commit d58a0e649bb64f14132b8560e47362d68372d672
+Author: Jose Daniel Rodriguez <142543881+jarvisbot01@users.noreply.github.com>
+Date:   Wed Oct 18 23:13:54 2023 +0000
+
+    :sparkles: feat(Api): add CORS configuration  to allow cross-origin resource sharing
+
+    - Configured CORS policy named "CorsPolicy" to allow any origin, method, and header.
+    - Integrated CORS configuration into the application services.
+
+commit e9c1b26091a5043e8db4a49935d62a88ddd22e60
+Author: Jose Daniel Rodriguez <142543881+jarvisbot01@users.noreply.github.com>
+Date:   Wed Oct 18 22:52:43 2023 +0000
+
+    :sparkles: feat(Api): add IpRateLimit middleware to handle rate limiting
+
+    - Configured rate limiting with a limit of 5 requests per 10 seconds for all endpoints.
+    - Enabled blocking of stacked requests and set the HTTP status code to 429 for rate-limited requests.
+    - Added a RealIpHeader configuration to use the "X-real-ip" header for identifying the real client IP.
+    - Integrated the IpRateLimit middleware into the application pipeline.
+
+commit 43a50bed78a13a1eeb1a7bf66c3d3c18f7940170
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Tue Oct 17 10:49:29 2023 -0500
+
+    :sparkles: feat(Api): add new Dtos and controllers
+
+    - AppointmentController.cs
+    - BaseApiController.cs
+    - BreedController.cs
+    - LaboratoryController.cs
+    - MedicalTreatmentController.cs
+    - MedicationController.cs
+    - MedicationMovementController.cs
+    - MovementDetailController.cs
+    - MovementTypeController.cs
+    - OwnerController.cs
+    - PetController.cs
+    - RolController.cs
+    - SpeciesController.cs
+    - SupplierController.cs
+    - UserController.cs
+    - VetController.cs
+
+commit 6b3afb9ea646e764f4c56ed349a5862708fff91c
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Tue Oct 17 09:37:41 2023 -0500
+
+    :sparkles: feat(Application): add new repositories and append to UnitOfWork
+
+    - AppointmentRepository
+    - BreedRepository
+    - LaboratoryRepository
+    - MedicalTreatmentRepository
+    - MedicationRepository
+    - MedicationMovementRepository
+    - MedicationSupplierRepository
+    - MovementDetailRepository
+    - MovementTypeRepository
+    - OwnerRepository
+    - PetRepository
+    - SpeciesRepository
+    - SupplierRepository
+    - VetRepository
+
+commit c59a2efe620dd1cab72cefb47f82a308003a7b4c
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Tue Oct 17 09:06:24 2023 -0500
+
+    :sparkles: feat(Domain): add new interfaces and append to IUnitOfWork
+
+    - IAppointment
+    - IBreed
+    - ILaboratory
+    - IMedicalTreatment
+    - IMedication
+    - IMedicationMovement
+    - IMedicationSupplier
+    - IMovementDetail
+    - IMovementType
+:
+    - BreedRepository
+    - LaboratoryRepository
+    - MedicalTreatmentRepository
+    - MedicationRepository
+    - MedicationMovementRepository
+    - MedicationSupplierRepository
+    - MovementDetailRepository
+    - MovementTypeRepository
+    - OwnerRepository
+    - PetRepository
+    - SpeciesRepository
+    - SupplierRepository
+    - VetRepository
+
+commit c59a2efe620dd1cab72cefb47f82a308003a7b4c
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Tue Oct 17 09:06:24 2023 -0500
+
+    :sparkles: feat(Domain): add new interfaces and append to IUnitOfWork
+
+    - IAppointment
+    - IBreed
+    - ILaboratory
+    - IMedicalTreatment
+    - IMedication
+    - IMedicationMovement
+    - IMedicationSupplier
+    - IMovementDetail
+    - IMovementType
+    - IOwner
+    - IPet
+    - ISpecies
+    - ISupplier
+    - IVet
+
+commit a27fe31ea9d9e757af3dd262d404e1fca0189d66
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Tue Oct 17 01:29:48 2023 +0000
+
+    :sparkles: feat(Persistence): add entities configurations and migration
+
+    - AppointmentConfiguration.cs
+    - BreedConfiguration.cs
+    - LaboratoryConfiguration.cs
+    - MedicationConfiguration.cs
+    - MedicationMovementConfiguration.cs
+    - MedicationSupplierConfiguration.cs
+    - MedicalTreatmentConfiguration.cs
+    - MovementDetailConfiguration.cs
+    - MovementTypeConfiguration.cs
+    - OwnerConfiguration.cs
+    - PetConfiguration.cs
+    - SpeciesConfiguration.cs
+    - SupplierConfiguration.cs
+    - VetConfiguration.cs
+    - Add entities database migration (20231017033133_Entities) for PetShopContext in Persistence.
+
+commit 6a865725d6e729095a97e79f800c97416e5c7077
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Mon Oct 16 23:31:42 2023 +0000
+
+    :sparkles: feat(Domain): add new entities
+
+    - Appointment
+    - Breed
+    - Laboratory
+    - MedicalTreatment
+    - Medication
+    - MedicationMovement
+    - MedicationSupplier
+    - MovementDetail
+    - MovementType
+    - Owner
+    - Pet
+    - Species
+    - Supplier
+    - Vet
+
+commit 5f405dcedcca5e924576aa5b89c13c4b8d613a6b
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Mon Oct 16 13:31:57 2023 +0000
+
+    :sparkles: feat: configure database connection in Api and add initial migration
+
+    - Configure database connection in Api.csproj, Program.cs, and appsettings.json.
+    - Add initial database migration (20231016132438_InitialCreate) for PetShopContext in Persistence.
+
+commit 356863b3e60ae96738a8f256591d9ab7c3c68c56
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Mon Oct 16 17:12:57 2023 +0000
+
+    :sparkles: feat(Api): implement JWT authentication, user service, and helpers
+
+    - Add JWT and Authorization helpers for JWT token configuration and user roles.
+    - Introduce IUserService and UserService for user-related operations.
+    - Introduce ApplicationServiceExtension.cs to configure JWT authentication.
+    - Update Api.csproj and Program.cs to include the new extension.
+
+commit 44ce3c60dc69edab222db9cdd22195748b7d5e6e
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Mon Oct 16 16:04:36 2023 +0000
+
+    :sparkles: feat(Api): add DTOs for user and role management
+
+    - Introduce new Data Transfer Objects (DTOs) for handling user registrations, logins, and role assignments.
+    - Update Api project file to include the new DTO classes.
+
+commit df2c29acdb3f3992c5c8226541de050d8fa0b6de
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Mon Oct 16 15:33:06 2023 +0000
+
+    :sparkles: feat(Application): implement repository and unit of work patterns
+
+    - Add generic, role, and user repositories for data access abstraction
+    - Introduce UnitOfWork to manage transactional boundaries
+    - Update Application project file to include new classes
+
+commit ed512c8771f330ba104a2b9f2a194f926297d873
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Mon Oct 16 13:50:21 2023 +0000
+
+    :sparkles: feat(Domain): add new interfaces for domain layer
+
+    - Add IGeneric, IRol, IUnitOfWork, and IUser interfaces.
+
+commit e64cbaa5826a149058fb1ac10653afc5cbbffb52
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Mon Oct 16 03:05:58 2023 +0000
+
+    :sparkles: feat(Persistence): add entity configurations and PetShopContext
+
+    - Add RefreshTokenConfiguration, RolConfiguration, and UserConfiguration.
+    - Create new PetShopContext for managing database interactions.
+    - Update Persistence.csproj.
+
+commit 58a64e0e61e59407cb6a2e9a5c24248f54ca3b91
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Mon Oct 16 00:01:23 2023 +0000
+
+    :sparkles: feat(Domain): add new entities and update Domain project
+
+    - Add BaseEntity, RefreshToken, Rol, User, and UserRol entities.
+    - Update Domain.csproj.
+
+commit 90421d3becd3467a0b9cc2359997def7643cedc2
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Sun Oct 15 23:29:07 2023 +0000
+
+    :sparkles: feat: initialize .NET projects and solution
+
+    - Add Api project with base setup
+    - Introduce Application, Domain, and Persistence layers
+    - Create petshop solution file to organize projects
+
+commit 4cf6cdaee0c92c60d37d345c1a600660c5a231f5
+Author: jarvisbot01 <jdrodriguez653@soy.sena.edu.co>
+Date:   Sun Oct 15 16:50:37 2023 -0500
+
+    :tada: initial commit

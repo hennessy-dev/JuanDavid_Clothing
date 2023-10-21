@@ -1,6 +1,6 @@
 namespace Dominio.Entidades;
 
-public class Proveedor
+public class Proveedor : BaseEntity
 {
     public int NitProveedor { get; set; }
     public string Nombre { get; set; }
